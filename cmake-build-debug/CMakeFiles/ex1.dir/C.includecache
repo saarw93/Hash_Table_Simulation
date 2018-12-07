@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/CLionProjects/ex1/GenericHashTable.c
+GenericHashTable.h
+/home/student/CLionProjects/ex1/GenericHashTable.h
+
+/home/student/CLionProjects/ex1/GenericHashTable.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/student/CLionProjects/ex1/main.c
+GenericHashTable.h
+/home/student/CLionProjects/ex1/GenericHashTable.h
+
