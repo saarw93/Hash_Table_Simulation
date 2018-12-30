@@ -21,6 +21,7 @@ In case of expansion, all the existed objects of the table in entries 0-(n-1) wi
 
 
 --------Installation/Compilation of the program---------
+
 open linux terminal, navigate to the folder containing "ex1" folder using the "cd" command (confirm it by using ls command)
 incase you want to use the makefile, type make and the program will automaticily be compiled,
 if you don't, type in the terminal:  gcc GenericHashTable.h GenericHashTable.c tester.c -o tester -Wvla -g -Wall.
@@ -28,11 +29,13 @@ very important: the name of the file that contains the main function to run this
 
 
 -----------Activation of the program--------------------
+
 open linux terminal, navigate to tester executeable file location using "cd" command (confirm it using ls command) 
 and type: ./tester . To run the program with valgrind, type: valgrind ./tester .
 
 
 -------------Program data structures--------------------
+
 struct Table: contains array of pointers to Objects (will be the hash table), original size of the table, current size of the table, d variable that says
 the ratio between the current size of the table to its original size, list length which is the max length each list can be, and dType is the data type of the table.
 
@@ -40,6 +43,7 @@ struct Object: contains the data of the object and the pointer to the next objec
 
 
 ----------program functions and their output---------------
+
 Table* createTable(int size, int dType, int listLength);
 output: pointer to the new created Table, otherwise, it returns NULL.
 
