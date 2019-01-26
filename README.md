@@ -1,5 +1,3 @@
-Name of Student: Saar Weitzman
-
 Generic Hash Table
 
 -------------List of files------------
